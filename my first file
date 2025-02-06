@@ -13,20 +13,15 @@ class Program
         Console.WriteLine($"The sum of {num1} and {num2} is {sum}");
     }
 }
-
 using System;
 
 class Program
 {
     static void Main()
     {
-        int num1, num2, Mul;
+
         Console.Write("Enter the first number: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter the second number: ");
         int num2 = Convert.ToInt32(Console.ReadLine());
-        int Mul = num1 * num2;
-        Console.WriteLine($"The Multiplication of {num1} and {num2} is {Mul}");
-    }
-}
 
